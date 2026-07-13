@@ -1,21 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
 
-const inputStyle 
- {
-  width: "100%",
-  padding "10px";
-  margin: "10px 0",
-  borderRadius "8px";
-  border: "1px solid #ccc",
-  fontSize "16px",
-};
+* {
+  box-sizing: border-box;
+}
 
-const buttonStyle  {
-  width: "100%",
-  padding "12px",
-  backgroundColor "#0077b6",
-  color "white",
-  border "none",
-  borderRadius "8px",
-  fontSize "16px",
-  cursor "pointer",
-};
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 450px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005f8d;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+details {
+  margin-top: 20px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #0077b6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+hr {
+  margin-top: 10px;
+}
